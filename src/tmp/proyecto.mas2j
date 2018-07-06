@@ -1,0 +1,13 @@
+/* Jason Project */
+
+MAS proyecto {
+
+    infrastructure: Centralised
+
+    agents:
+		log;
+        vend #4;
+        vend_t #2;
+        comp #1;
+        manager #1;
+}

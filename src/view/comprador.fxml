@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Label text="Nombre" />
+            <TextField maxWidth="70.0" />
+            <VBox spacing="5.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Label text="X: " />
+                        <TextField maxWidth="50.0" />
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Label text="Y: " />
+                        <TextField maxWidth="50.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" text="Añadir item" />
+            <Button mnemonicParsing="false" text="Eliminar comprador" />
+            <VBox alignment="TOP_CENTER">
+         <children>
+            <Label text="Numero agentes" />
+            <Spinner editable="true" maxWidth="90.0" />
+         </children>
+      </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" />
+      <Separator style="-fx-border-style: solid; -fx-border-color: grey; -fx-border-width: 0 0 5 0;">
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin>
+      </Separator>
+   </children>
+</VBox>

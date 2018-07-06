@@ -1,0 +1,8 @@
+/* Jason Project */
+
+MAS proyecto {
+
+    infrastructure: Centralised
+
+    agents:
+		log;
